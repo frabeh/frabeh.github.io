@@ -1,0 +1,45 @@
+body{
+
+}
+
+header{
+	background-color: yellow;
+	background-size: cover;
+}
+
+header img {
+	max-height: 10em;
+}
+
+#home nav{
+	text-align: right;
+	background-color: none;
+	color: black;
+}
+
+body{
+	padding-top: 70px;
+}
+
+#home .nameplate{
+	font-family: 'Raleway', sans-serif;
+	text-align: center;
+	font-weight: 300;
+	font-size: 5em;
+	height: 3em;
+	max-width: 100%;
+	background-color: pink;
+	background-image: url("../images/Artboard_site3x.png");
+}
+
+.title{
+	text-align: center;
+}
+
+.textbox{
+	margin-right: 10%;
+	margin-left: 10%;
+}
+
+
+
