@@ -160,7 +160,7 @@ display : block;
 margin-left : 6px;
 }
 #src_sec {
-background-image : url("../img/slide_img.jpg");
+background-image : url("../images/slide_img.jpg");
 background-position : center center;
 background-size : cover;
 min-height : 500px;
@@ -544,7 +544,7 @@ width : 100%;
 text-align : center;
 }
 #tstm_sec {
-background-image : url("../img/testimonial_bg.jpg");
+background-image : url("../images/testimonial_bg.jpg");
 background-position : center center;
 background-repeat : no-repeat;
 background-size : 100% 100%;
@@ -666,19 +666,19 @@ padding : 30px;
 text-transform : uppercase;
 }
 .title_bg_1 {
-background-image : url("../img/basic.jpg");
+background-image : url("../images/basic.jpg");
 background-position : center center;
 background-repeat : no-repeat;
 background-size : 100% 100%;
 }
 .title_bg_2 {
-background-image : url("../img/standar.jpg");
+background-image : url("../images/standar.jpg");
 background-position : center center;
 background-repeat : no-repeat;
 background-size : 100% 100%;
 }
 .title_bg_3 {
-background-image : url("../img/extended.jpg");
+background-image : url("../images/extended.jpg");
 background-position : center center;
 background-repeat : no-repeat;
 background-size : 100% 100%;
