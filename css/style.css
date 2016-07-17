@@ -28,7 +28,7 @@ text-decoration : none;
 .navbar {
 padding : 10px 0;
 transition : background 0.5s ease-in-out, padding 0.5s ease-in-out;
-padding-right: 1em;
+padding-right: 20px;
 }
 .top-nav-collapse {
 padding : 0;
@@ -348,15 +348,16 @@ padding : 190px 0;
 display : block;
 text-align : center;
 vertical-align : middle;
-width : 100%;
+max-width : 100%;
 }
 #slider_sec {
 background-image : url("../images/salta.jpg");
 background-position : center center;
 background-repeat : no-repeat;
-background-size : 100% 100%;
-height : 650px;
-width : 100%;
+background-size : cover;
+max-height: 100%;
+width: 100%;
+
 }
 .left_crousel_btn, .right_crousel_btn {
 color : #fff;
