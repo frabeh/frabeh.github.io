@@ -28,6 +28,7 @@ text-decoration : none;
 .navbar {
 padding : 10px 0;
 transition : background 0.5s ease-in-out, padding 0.5s ease-in-out;
+padding-right: 1em;
 }
 .top-nav-collapse {
 padding : 0;
