@@ -114,13 +114,13 @@ font-family : lato;
 font-size : 14px;
 font-weight : bold;
 line-height : 32px;
-padding : 25px 14px;
+/*padding : 14px 14px;*/
 text-decoration : none;
 text-transform : capitalize;
 transition : all 0.4s 0s ease;
 }
 #nav_menu ul li {
-float : left;
+/*float : left;*/
 padding : 0;
 position : relative;
 }
@@ -136,7 +136,7 @@ padding : 0;
 position : absolute;
 top : 100%;
 z-index : 9999;
-padding : 10px;
+/*padding : 10px;*/
 }
 #nav_menu ul ul li {
 float : none;
@@ -160,6 +160,11 @@ display : block;
 #nav_menu ul li a i {
 margin-left : 6px;
 }
+
+#nav_menu button {
+	margin-right: 8px;
+}
+
 #src_sec {
 background-image : url("../images/slide_img.jpg");
 background-position : center center;
