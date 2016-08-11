@@ -212,7 +212,8 @@ text-transform : uppercase;
 letter-spacing : 1px;
 }
 .abt {
-margin : 0 auto;
+margin-left : 6em;
+margin-right: 6em;
 text-align : justify;
 }
 #skill_sec {
