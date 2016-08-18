@@ -189,7 +189,7 @@ header .intro-text .skills {
   color: white;
   border-color: #FC354C;
 }
-@media (min-width: 768px) {
+@media (min-width: 768px) {
   .navbar-custom {
     padding: 25px 0;
     -webkit-transition: padding 0.3s;
@@ -219,6 +219,7 @@ section h2 {
 section.success {
   background: #13597D;
   color: white;
+  
 }
 @media (max-width: 767px) {
   section {
