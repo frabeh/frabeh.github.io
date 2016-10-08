@@ -16,12 +16,14 @@
 
     <!-- Theme CSS -->
     <link href="css/freelancer.css" rel="stylesheet">
-    <link href="css/lightbox.css" rel="stylesheet">
+    <link rel="less/freelancer.less" href="style.less" type="text/css">
 
     <!-- Custom Fonts -->
     <link href="vendor/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
     <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css">
     <link href="https://fonts.googleapis.com/css?family=Lato:400,700,400italic,700italic" rel="stylesheet" type="text/css">
+    <link href="https://fonts.googleapis.com/css?family=Crimson+Text|Raleway:400,600" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Bad+Script|Open+Sans:400,700" rel="stylesheet">
 
     <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
@@ -42,7 +44,7 @@
                 <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
                     <span class="sr-only">Toggle navigation</span><i class="fa fa-bars"></i>
                 </button>
-                <a class="navbar-brand" href="#page-top">FGBehling</a>
+                <a class="navbar-brand" href="http://francescabehling.com#portfolio">Back</a>
             </div>
 
             <!-- Collect the nav links, forms, and other content for toggling -->
@@ -55,7 +57,7 @@
                         <a href="#portfolio">Portfolio</a>
                     </li>
                     <li class="page-scroll">
-                        <a href="#about">About</a>
+                        <a href="http://francescabehling.com/about">About</a>
                     </li>
                     <li class="page-scroll">
                         <a href="#contact">Contact</a>
@@ -68,102 +70,228 @@
     </nav>
 
     <!-- Header -->
-    <header class="portfolio-header">
+    <header id="secondary-header">
         <div class="container">
             <div class="row">
                 <div class="col-lg-12">
                     <!-- <img class="img-responsive" src="images/profile.png" alt=""> -->
-                    <h2>Accordion Mobile & Web Apps</h2>
-                        <hr class="star-primary">
+                    <div id="portfolio">
+                        <span class="portfolio-title">Accordion</span>
+                        <div class="portfolio-sub-title">
+                            A communication and document-sharing platform for construction professionals.
+                        </div>
+                         <ul class="list-inline item-details page-scroll portfolio-nav">
+                                <li>
+                                    <a href="#accordion-at-a-glance">At a Glance</a>
+                                </li>
+                                <li>
+                                    <a href="#accordion-overview">Overview</a>
+                                </li>
+                                <li>
+                                    <a href="#accordion-challenge">Challenge</a>
+                                </li>
+                                <li>
+                                    <a href="#accordion-approach">Approach</a>
+                                </li>
+                                <li>
+                                    <a href="#accordion-results">Results</a>
+                                </li>
+                            </ul>
+                    </div>
                 </div>
             </div>
         </div>
     </header>
 
-    <section>
+    <!-- Portfolio Body -->
+
+    <div class="portfolio-page" id="portfolioModal1">
+        <div class="modal-content">
+            <!-- <div class="close-modal" data-dismiss="modal">
+                <div class="lr">
+                    <div class="rl">
+                    </div>
+                </div>
+            </div> -->
             <div class="container">
                 <div class="row">
                     <div class="col-lg-8 col-lg-offset-2">
-                        <div class=portfolio-piece>
-                            <img src="images/arches.JPG" class="img-responsive img-centered" alt="">
-                            <article>
-                                <p>
-                                    I was the project manager and a designer for Accordion, an app to facilitate document sharing and communication. I was tasked with leading a team through an iteration of the alpha mobile app and creating a corresponding web app. 
-                                </p>
-                                <article>
-                                    <h3>User Testing</h3>
-                                    <article>
-                                        <section>
-                                            <a href="images/accordion/user-feedback-chart.png" data-lightbox="road3.jpg" data-lightbox="roadtrip">Image #3</a>
-                                            <a href="images/image-4.jpg" data-lightbox="roadtrip">Image #4</a>
-                                        </section>
-                                    </article>
-                                    <p>
-                                        Accordion's original target audience was unfocused, so I first led the team through user research and testing to determine which segment of the construction industry-- small construction companies-- would most benefit from the app. 
-                                    </p>
-                                    <p>
-                                        I utilized the user feedback to create a more intuitive flow for the app. We also added some user-requested features such as document folders, multiple chat channels per construction project, and an updated notification process.
-                                    </p>
-                                </article>
-                                <!-- <article>
-                                    <h3>Native Mobile App</h3>
-                                    <p>
-                                    </p>
-                                </article> -->
+                        <div class="portfolio-body">
+                            <img src="images/accordion/accordion-product-images.png" class="img-responsive img-centered" alt="Accordion stills">
+                            <article id="accordion-at-a-glance">
+                                <h1>At a Glance</h1>
+                                <ul>
+                                    <li>Role: Project Manager // UX Researcher & Designer</li>
+                                    <li>Client: Gist Digital</li>
+                                    <li>Product: Accordion</li>
+                                    <li>Deliverables: Updated mobile app // New web application</li>
+                                    <li>Duration: June 2016 - Present</li>
+                                </ul>
                             </article>
-                            <ul class="list-inline item-details">
-                                <li>Client:
-                                    <strong><a href="http://www.gistdigital.com/">Gist Digital</a>
-                                    </strong>
-                                </li>
-                                <li>Date:
-                                    <strong>
-                                        Summer 2016
-                                    </strong>
-                                </li>
-                                <li>Service:
-                                    <strong>
-                                        UX/UI
-                                    </strong>
-                                </li>
-                            </ul>
+
+                            <article>
+                                <h1 id="accordion-overview">Overview</h1>
+                                <p>
+                                    Gist Digital is a digital transformation company that incubates startups through its sister brand, Ignite. Accordion, one of the apps being incubated, is a collaboration platform designed to facilitate communication and document sharing for construction professionals. 
+                                </p>
+                                <p>
+                                    As a design fellow at Startup Institute, I led a cross-functional team as to iterate on the native mobile app and create an analogous web application.  
+                                </p>
+                                <p>
+                                    My team has so far delivered user flows and wireframes based on our collected user feedback. We continue to build the product. 
+                                </p>
+                            </article>
+
+                            <article>
+                                <h1 id="accordion-challenge">Challenge</h1>
+                                <p>
+                                    Accordion’s flow was not intuitive, making simple tasks and interactions with a team difficult to accomplish. The app was also missing features necessary for a complete, easy-to-use experience. 
+                                </p>
+                                <p>
+                                    Furthermore, Accordion’s intended audience—the construction industry—is segmented into a number of sectors with competing needs. We had to narrow the intended audience and create a product including the tools and features that this audience needed. 
+
+                                </p>
+                            </article>
+
+                            <article>
+                                <h1 id="accordion-approach">Approach</h1>
+                                <p>
+                                    We first spent a considerable amount of time researching the industry and market through primary (interviews, demos) and secondary (articles, academic papers) research methods to determine product/market fit. It was essential for us to very clearly understand the various customer segments, their core pain points, and how or if Accordion was solving them. During our interviews and demos, we also tested the app for usability. 
+                                </p>
+                                <p>
+                                    Once we identified our target audience, we utilized the research and testing from this section of the industry to reexamine Accordion’s features list. We changed certain feature functionality and added other features. During this process, we also researched examples of how these important features had been designed in other products.
+                                </p>
+
+                                <h2>Market & Usability Research</h2>
+                                <p>
+                                    To determine the segment of the construction industry that would most benefit from Accordion, we conducted interviews and demonstrations with users in different segments of the construction industry. Each interview was 15 to 30 minutes long. I was responsible for creating an outline for the interview, shown below. Between the pre- and post-app questions, the interviewers asked our users to click through the app and narrate their reactions. 
+                                </p>
+                                <img src="images/accordion/user-testing-questions.PNG" class="img-responsive img-centered img-modal img-bordered" alt="User Testing Questions">
+                                <p>
+                                    The final sampling included interviews that were scheduled and unscheduled, done online and in person, and representative of not only different segments of the industry (for example, large or small construction companies, residential or commercial) but also different personnel within those segments involved in the final construction product (such as foremen, laborers, painters, plumbers, etc.). The image below is a sample of how we organized feedback from our interview transcripts.
+                                </p>
+                                <img src="images/accordion/user-feedback-chart.PNG" class="img-responsive img-centered img-modal img-bordered" alt="User Testing Feedback">
+                                <p>
+                                    We also conducted secondary market research by reviewing academic papers and articles about the construction industry’s current communication and documentation methods.
+                                </p>
+                                <p>
+                                    Our research identified small construction-related companies as the segment of the industry most exhibiting a need for Accordion. Using the information collected from this industry segment, we modified Accordion’s main features to better suit the app’s audience. Below is an overview of the changes we implemented.
+                                </p>
+                                <img src="images/accordion/added-features.PNG" class="img-responsive img-centered img-modal img-bordered" alt="Added Features">
+                                <p>
+                                    To improve the product’s usability, my team researched how Accordion’s key features are presented and used in successful applications such as Trello, F8, AirBnB, Slack, Google Hangouts, Google Docs, and Facebook Messenger. This research also illuminated for us that Accordion was not adapted for either Android or iOS, and I instructed the team to optimize the app for both operating systems. 
+                                </p>
+
+                                <h2>Information Architecture & User Flows</h2>
+                                <p>
+                                    Users found Accordion’s information architecture and permanent navigation confusing. They were not able to easily switch between documents and chats for a single project. We modified the user flow to make the app more intuitive, nesting both Chats and Documents within the Project area. 
+                                </p>
+                                <img src="images/accordion/updated-flow.PNG" class="img-responsive img-centered img-modal img-bordered" alt="High-Level User Flow">
+                                <p>
+                                    I created a complete flow for the web app. While the flows for both Documents and Chats are the same for both the web and the native mobile app, the web application’s static navigation bar changes the overall user flow slightly.
+                                </p>
+                                <img src="images/accordion/web-user-flow.png" class="img-responsive img-centered img-modal img-bordered" alt="Web User Flow">
+
+                                <h2>Sketches and Wire Frames</h2>
+                                <p>
+                                We sketched the most important parts of the product as a team so that the app’s most important functionalities would remain consistent across all three platforms—Android, iOS, and web. I was then responsible for sketching Accordion’s web platform. 
+                                </p>
+                                <p>
+                                    Below are sketches demonstrating a sampling of the web application’s features.
+                                </p>
+                                <div class="row modal-row">
+                                        <div class="col-sm-6">
+                                            <figure>
+                                                <img src="images/accordion/web-docs-home.png" class="img-responsive img-modal" alt="Documents Tab">
+                                                <figcaption>
+                                                    Documents tab for Kitchen project showing folder options.
+                                                </figcaption>
+                                            </figure>
+                                        </div>
+                                        <div class="col-sm-6">
+                                            <figure>
+                                                <img src="images/accordion/web-chat-delete.jpg" class="img-responsive img-modal" alt="Accordion Chats with Delete">
+                                                <figcaption>
+                                                    Chats tab for Kitchen project showing delete popup.
+                                                </figcaption>
+                                            </figure>
+                                        </div>
+                                    </div>
+                                    <div class="row modal-row">
+                                        <div class="col-sm-6">
+                                            <figure>
+                                                <img src="images/accordion/web-notification-proj-home.jpg" class="img-responsive img-modal" alt="Documents Tab">
+                                                <figcaption>
+                                                    Notifications viewed from chat screen within project.
+                                                </figcaption>
+                                            </figure>
+                                        </div>
+                                        <div class="col-sm-6">
+                                            <figure>
+                                                <img src="images/accordion/web-chat-features.jpg" class="img-responsive img-modal" alt="Trello for Web">
+                                                <figcaption>
+                                                    Example of chat, including image and new messages.
+                                                </figcaption>
+                                            </figure>
+                                        </div>
+                                    </div>
+                                    <div class="row modal-row">
+                                        <div class="col-sm-6">
+                                            <figure>
+                                                <img src="images/accordion/web-chat-new.jpg" class="img-responsive img-modal" alt="Documents Tab">
+                                                <figcaption>
+                                                    New chat screen with dropdown of project teammates. 
+                                                </figcaption>
+                                            </figure>
+                                        </div>
+                                        <div class="col-sm-6">
+                                            <figure>
+                                                <img src="images/accordion/web-search-results.jpg" class="img-responsive img-modal" alt="Trello for Web">
+                                                <figcaption>
+                                                    Results of search within a project. 
+                                                </figcaption>
+                                            </figure>
+                                        </div>
+                                    </div>
+
+                            </article>
+
+                            <article>
+                                <h1 id="accordion-results">Results</h1>
+                                <p>
+                                    The project is still in progress. I’m currently supervising the Android and iOS iterations and working on the next iteration of the web application.
+                                </p>
+                            </article>
+                            
+
+
                         </div>
                     </div>
                 </div>
             </div>
-    </section>
-
-    
-    <!-- Footer -->
-    <footer class="text-center">
-        <div class="footer-above">
-            <div class="container">
-                <div class="row">
-                    <!-- <div class="footer-col col-md-4">
-                        <h3>Location</h3>
-                        <p>3481 Melrose Place
-                            <br>Beverly Hills, CA 90210</p>
-                    </div> -->
-                    <div>
-                        <h3>Around the Web</h3>
-                        <ul class="list-inline">
-                            <li>
-                                <a href="https://www.linkedin.com/in/fgbehling" class="btn-social btn-outline"><i class="fa fa-fw fa-linkedin"></i></a>
-                            </li>
-                            <li>
-                                <a href="https://dribbble.com/fgbehling" class="btn-social btn-outline"><i class="fa fa-fw fa-dribbble"></i></a>
-                            </li>
-                        </ul>
-                    </div>
-                   <!--  <div class="footer-col col-md-6">
-                        <h3>About Freelancer</h3>
-                        <p>Freelance is a free to use, open source Bootstrap theme created by <a href="http://startbootstrap.com">Start Bootstrap</a>.</p>
-                    </div> -->
-                </div>
-            </div>
         </div>
+    </div>
+
+     <!-- Footer -->
+    <footer class="text-center">
         <div class="footer-below">
             <div class="container">
+                <div class="row">
+                    <ul class="list-inline">
+                        <li>
+                            <a href="mailto:fg.behling@gmail.com?Subject=Your%20Portfolio" target="_top" class="btn-social-lt btn-outline-lt"><i class="fa fa-fw fa-envelope-o"></i></a>
+                        </li>
+                        <li>
+                            <a href="tel:+19085470162" class="btn-social-lt btn-outline-lt"><i class="fa fa-fw fa-phone"></i></a>
+                        </li>
+                        <li>
+                            <a href="https://www.linkedin.com/in/fgbehling" class="btn-social-lt btn-outline-lt"><i class="fa fa-fw fa-linkedin"></i></a>
+                        </li>
+                        <li>
+                            <a href="https://www.behance.net/fgbehling" class="btn-social-lt btn-outline-lt"><i class="fa fa-fw fa-behance"></i></a>
+                        </li>
+                    </ul>
+                </div>
                 <div class="row">
                     <div class="col-lg-12">
                         &copy; Francesca Behling 2016
@@ -173,15 +301,7 @@
         </div>
     </footer>
 
-    <!-- Scroll to Top Button (Only visible on small and extra-small screen sizes) -->
-    <div class="scroll-top page-scroll hidden-sm hidden-xs hidden-lg hidden-md">
-        <a class="btn btn-primary" href="#page-top">
-            <i class="fa fa-chevron-up"></i>
-        </a>
-    </div>
-
-
-    <!-- jQuery -->
+     <!-- jQuery -->
     <script src="vendor/jquery/jquery.min.js"></script>
 
     <!-- Bootstrap Core JavaScript -->
@@ -189,14 +309,27 @@
 
     <!-- Plugin JavaScript -->
     <script src="http://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.3/jquery.easing.min.js"></script>
+    <script src="http://lesscss.googlecode.com/files/less-1.0.21.min.js"></script>
 
     <!-- Contact Form JavaScript -->
     <script src="js/jqBootstrapValidation.js"></script>
     <script src="js/contact_me.js"></script>
 
-    <!-- Theme & Lightbox JavaScript -->
+    <!-- Theme JavaScript -->
     <script src="js/freelancer.min.js"></script>
-    <script src="js/lightbox.min"></script>
+
+    <script>
+    //Open all external links in a new window
+    function externalLinks() {
+      for(var c = document.getElementsByTagName("a"), a = 0;a < c.length;a++) {
+       //console.log("LINK: " + c[a].getAttribute("href"));
+        var b = c[a];
+        b.getAttribute("href") && b.hostname !== location.hostname && (b.target = "_blank")
+      }
+    };
+
+    externalLinks();
+    </script>
 
 </body>
 
