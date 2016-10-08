@@ -685,6 +685,10 @@ fieldset[disabled] .btn-success.active {
   opacity: 0;
   display: none;
 }
+.about-page .about-text {
+  padding-left: 50px;
+  padding-right: 50px;
+}
 .about-page p {
   margin: 0;
   font-size: 1.2em;
