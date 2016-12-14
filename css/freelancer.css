@@ -273,6 +273,11 @@ section.color-light {
     padding-top: 75px;
   }
 }
+
+.padded {
+  padding-bottom:25px;
+}
+
 /*#portfolio h2 {
   padding-bottom: 1em;
   font-size: 1em;
@@ -597,7 +602,6 @@ fieldset[disabled] .btn-success.active {
   box-shadow: none;
   border: none;
   min-height: 100%;
-  /*padding: 100px 0;*/
   text-align: center;
   padding-bottom: 50px;
   padding-left: 50px;
@@ -621,7 +625,7 @@ fieldset[disabled] .btn-success.active {
 }
 .portfolio-page .modal-content h2 {
   padding-top: .3em;
-  font-size: 2em;
+  font-size: 1.7em;
 }
 .portfolio-page .modal-content h1 {
   padding-top: .3em;
@@ -629,7 +633,7 @@ fieldset[disabled] .btn-success.active {
 }
 .portfolio-page .modal-content p {
   margin: 0;
-  font-size: 1.2em;
+  font-size: 1.1em;
   padding-bottom: 1em;
 }
 .portfolio-page .modal-content img {
