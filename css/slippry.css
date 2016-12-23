@@ -292,7 +292,7 @@
   margin: 1.5em 0;
 }
 .portfolio .external-captions {
-  background-color: #141414;
+  background-color: none;
   padding: 1em;
   text-align: right;
 }
