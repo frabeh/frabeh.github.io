@@ -690,3 +690,23 @@ fieldset[disabled] .btn-success.active {
   padding-bottom: 1em;
 }
 
+/* Portfolio */
+.portfolio .sy-controls {
+  display: block;
+}
+.portfolio .sy-pager {
+  margin: 1.5em 0;
+}
+.portfolio .external-captions p {
+  background-color: none;
+  margin-top: 1em;
+  margin-bottom: 1em;
+  text-align: center;
+  display: block;
+  font-size: .9em;
+}
+
+/*box styling*/
+#var-height img{
+  max-height: 100px;
+}
