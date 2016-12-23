@@ -699,8 +699,8 @@ fieldset[disabled] .btn-success.active {
 }
 .portfolio .external-captions p {
   background-color: none;
-  margin-top: 1em;
-  margin-bottom: 1em;
+ /* margin-top: 1em;
+  margin-bottom: 1em;*/
   text-align: center;
   display: block;
   font-size: .9em;
