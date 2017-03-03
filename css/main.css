@@ -1,7 +1,7 @@
 
 
 body {
-  font-family: 'Lato', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  font-family: 'Open Sans', sans-serif;
   overflow-x: hidden;
   background-color: #FCFAFF;
 }
@@ -25,8 +25,7 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
-  /*text-transform: uppercase;*/
+  font-family: 'Open Sans', sans-serif;
   font-weight: 700;
 }
 hr.dot-light,
@@ -71,15 +70,161 @@ hr.dot-tertiary:after {
 .img-bordered{
   border: 1px solid gray;
 }
-.img-modal {
-  max-height: 35em;
+.flex-row-image {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    align-content: space-around;
 }
-.portfolio-page .modal-content figure img {
+
+.flex-row-image {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-flex-wrap: wrap;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+}
+
+.portfolio-page .flex-row-image div figure img {
+  max-height: 300px;
+}
+
+.flex-row-caption {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: baseline;
+    align-content: space-between;
+}
+.flex-row-caption {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-flex-wrap: wrap;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+}
+.flex-image {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    align-content: space-around;
+}
+
+.img-modal {
+  max-height: 100%;
+  max-width: 100%;
+  margin: 30px;
+}
+
+.img-scrollbox {
+  width: 100%;
+  height: 100%;
+}
+
+.scrollbox-container {
+  width: 100%;
+  height: 30em;
+  overflow-y: auto;
+  margin: 30px;
+}
+
+.scrollbox-container.browser-mockup{
+  border-top: 2em solid rgba(230, 230, 230, 0.7);
+  box-shadow: 0 0.1em 1em 0 rgba(0, 0, 0, 0.4);
+  position: relative;
+  border-radius: 3px 3px 0 0
+}
+
+.scrollbox-container.browser-mockup:before {
   display: block;
+  position: absolute;
+  content: '';
+  top: -1.25em;
+  left: 1em;
+  width: 0.5em;
+  height: 0.5em;
+  border-radius: 50%;
+  background-color: #f44;
+  box-shadow: 0 0 0 2px #f44, 1.5em 0 0 2px #9b3, 3em 0 0 2px #fb5;
+}
+    
+.scrollbox-container.browser-mockup:after {
+  display: block;
+  position: absolute;
+  content: '';
+  top: -1.6em;
+  left: 5.5em;
+  width: calc(100% - 6em);
+  height: 1.2em;
+  border-radius: 2px;
+  background-color: white;
+}
+
+.browser-mockup-container > * {
+  display: block;
+}
+
+.browser-mockup-content{
+  width: 100%;
+  max-height: 5000px;
+}
+
+
+
+.browser-mockup {
+  border-top: 2em solid rgba(230, 230, 230, 0.7);
+  box-shadow: 0 0.1em 1em 0 rgba(0, 0, 0, 0.4);
+  position: relative;
+  border-radius: 3px 3px 0 0
+}
+
+.browser-mockup:before {
+  display: block;
+  position: absolute;
+  content: '';
+  top: -1.25em;
+  left: 1em;
+  width: 0.5em;
+  height: 0.5em;
+  border-radius: 50%;
+  background-color: #f44;
+  box-shadow: 0 0 0 2px #f44, 1.5em 0 0 2px #9b3, 3em 0 0 2px #fb5;
+}
+    
+.browser-mockup.with-url:after {
+  display: block;
+  position: absolute;
+  content: '';
+  top: -1.6em;
+  left: 5.5em;
+  width: calc(100% - 6em);
+  height: 1.2em;
+  border-radius: 2px;
+  background-color: white;
+}
+
+.browser-mockup > * {
+  display: block;
+}
+
+.portfolio-page .modal-content figure img {
+  display: inline-block;
   margin: 0 auto;
   margin-right: auto;
   margin-bottom: 0px;
-  max-width: 350px;
+  max-width: 100%;
+  max-height: 100%;
+  display:table-cell;
+  vertical-align: middle;
 }
 .portfolio-page .modal-content .figure-three img {
   max-height: 350px;
@@ -115,7 +260,7 @@ header img {
 }
 header .intro-text .name {
   display: block;
-  font-family: 'Montserrat';
+  font-family: 'Open Sans';
   text-transform: lowercase;
   font-weight: 600;
   font-size: 2em;
@@ -166,7 +311,7 @@ header .intro-text .button {
 }
 .navbar-custom {
   background: #282524;
-  font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: 'Open Sans', sans-serif;
   text-transform: uppercase;
   font-weight: 700;
   border-bottom: solid 3px #535358;
@@ -176,7 +321,7 @@ header .intro-text .button {
 }
 .navbar-custom .navbar-brand {
   color: #E0E8E3;
-  font-family: "Montserrat"
+  font-family: "Open Sans"
   text-transform: uppercase;
 }
 .navbar-custom .navbar-brand:hover,
@@ -273,7 +418,7 @@ section.color-light {
   right: 0;
 }
 #portfolio .portfolio-item img {
-  max-height: 500px;
+  max-height: 40em;
   display: block;
   margin: 0 auto;
 
@@ -493,10 +638,11 @@ fieldset[disabled] .btn-primary.active {
   background-color: white;
 }
 .btn-success {
-  color: white;
-  background-color: #F56991;
+  color: black;
+  background-color: white;
   border-color: #F56991;
   font-weight: 700;
+  font-style: normal;
 
 }
 .btn-success:hover,
@@ -504,9 +650,10 @@ fieldset[disabled] .btn-primary.active {
 .btn-success:active,
 .btn-success.active,
 .open .dropdown-toggle.btn-success {
-  color: white;
-  background-color: #D93243;
-  border-color: #D93243;
+  color: black;
+  background-color: white;
+  border-color: #F56991;
+  font-style: italic;
 }
 .btn-success:active,
 .btn-success.active,
@@ -528,7 +675,7 @@ fieldset[disabled] .btn-success:active,
 .btn-success.disabled.active,
 .btn-success[disabled].active,
 fieldset[disabled] .btn-success.active {
-  background-color: #F56991;
+  background-color: #E0E8E3;
   border-color: #F56991;
 }
 .btn-success .badge {
@@ -622,8 +769,8 @@ fieldset[disabled] .btn-success.active {
   padding-bottom: 1em;
 }
 .portfolio-page .modal-content img {
-  margin-bottom: 30px;
-  margin-top: 30px;
+  /*margin-bottom: 30px;
+  margin-top: 30px;*/
   max-height: 100%;
 }
 .portfolio-page article {
@@ -632,7 +779,7 @@ fieldset[disabled] .btn-success.active {
 .portfolio-page .modal-content .item-details {
   margin: 30px 0;
 }
-.portfolio-page .modal-content .headimg {
+.portfolio-page .modal-content .heading {
   max-height: 500px;
 }
 .portfolio-page .close-modal {
