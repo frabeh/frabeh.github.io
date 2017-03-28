@@ -6,7 +6,8 @@ body {
   background-color: #FCFAFF;
 }
 p {
-  font-size: 1.2em;
+  font-size: 1em;
+  font-weight: 400;
 }
 p.small {
   font-size: 1em;
@@ -26,7 +27,7 @@ h4,
 h5,
 h6 {
   font-family: 'Open Sans', sans-serif;
-  font-weight: 700;
+  font-weight: 600;
 }
 hr.dot-light,
 hr.dot-primary,
@@ -122,7 +123,7 @@ hr.dot-tertiary:after {
 .img-modal {
   max-height: 100%;
   max-width: 100%;
-  margin: 30px;
+  margin: 2em 2em 2em 2em;
 }
 
 .img-scrollbox {
@@ -220,7 +221,8 @@ hr.dot-tertiary:after {
   display: inline-block;
   margin: 0 auto;
   margin-right: auto;
-  margin-bottom: 0px;
+  margin-bottom: 15px;
+  margin-top: 15px;
   max-width: 100%;
   max-height: 100%;
   display:table-cell;
@@ -232,16 +234,18 @@ hr.dot-tertiary:after {
   border: 1px solid grey;
 }
 figcaption {
-  font-style: italic;
+  /*font-style: italic;*/
+  font-weight: 400;
   margin-bottom: 30px;
   text-align: center;
+  font-size: .85em;
 }
 header {
   text-align: left;
   background-image: 
       linear-gradient(
-          rgba(7, 77, 18, 0.45), 
-          rgba(7, 77, 18, 0.45)),
+          rgba(63, 74, 94, 0.55), 
+          rgba(63, 74, 94, 0.55)),
       url("../images/theme/leaves.png");
   background-position : center center;
   background-repeat : no-repeat;
@@ -261,7 +265,7 @@ header img {
 header .intro-text .name {
   display: block;
   font-family: 'Open Sans';
-  text-transform: lowercase;
+  /*text-transform: lowercase;*/
   font-weight: 600;
   font-size: 2em;
   margin-left: 20px;
@@ -270,7 +274,7 @@ header .intro-text .name-about{
   font-size: 1.5em;
 }
 header .intro-text .skills {
-  font-size: 1.25em;
+  font-size: 1.05em;
   font-weight: 300;
   margin-left: 20px;
 }
@@ -297,7 +301,7 @@ header .intro-text .button {
   }
 }
 #secondary-header {
-  background: #535358;
+  background: #3F4A5E;
 }
 #about-header {
    background-image: 
@@ -310,11 +314,11 @@ header .intro-text .button {
   font-size: 3em;
 }
 .navbar-custom {
-  background: #282524;
+  background: #323B4B;
   font-family: 'Open Sans', sans-serif;
   text-transform: uppercase;
   font-weight: 700;
-  border-bottom: solid 3px #535358;
+  border-bottom: solid 3px #3F4A5E;
 }
 .navbar-custom a:focus {
   outline: none;
@@ -546,7 +550,7 @@ footer .footer-col {
 }
 footer .footer-below {
   padding: 25px 0;
-  background-color: #29221F;
+  background-color: #323B4B;
 }
 
 .btn-outline {
@@ -567,12 +571,12 @@ footer .footer-below {
 }
 .btn-outline-dk {
   color: #282524;
-  font-size: 20px;
+  font-size: 1em;
   border: solid 2px #E0E8E3;
   background: 
     linear-gradient(
-          rgba(83, 83, 88, 0.45), 
-          rgba(83, 83, 88, 0.45));
+          rgba(63, 74, 94, 0.6), 
+          rgba(63, 74, 94, 0.6));
   transition: all 0.3s ease-in-out;
   margin-top: 15px;
 }
@@ -745,28 +749,32 @@ fieldset[disabled] .btn-success.active {
 #portfolio .portfolio-title {
   margin-left: 20px;
   font-size: 4em;
+  font-weight: 600;
 }
 #portfolio .portfolio-sub-title{
   margin-left: 20px;
-  font-size: 1.5em;
+  font-size: 1.25em;
+  font-weight: 400;
 }
 #portfolio .portfolio-nav {
   margin-top: 15px;
-  margin-left: 20px;
+  margin-left: 15px;
   font-weight: bold;
 }
 .portfolio-page .modal-content h2 {
-  padding-top: .3em;
+  /*padding-top: .5em;*/
+  padding-bottom:.4em;
   font-size: 1.7em;
 }
 .portfolio-page .modal-content h1 {
-  padding-top: .3em;
+  padding-top: .5em;
+  padding-bottom: .4em;
   font-size: 2.3em;
 }
 .portfolio-page .modal-content p {
   margin: 0;
   font-size: 1.1em;
-  padding-bottom: 1em;
+  padding-bottom: 1.2em;
 }
 .portfolio-page .modal-content img {
   /*margin-bottom: 30px;
